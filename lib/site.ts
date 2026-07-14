@@ -1,8 +1,6 @@
-export const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ??
-  "http://localhost:3000";
+export const siteUrl = "https://cassio-brandao-adv.vercel.app";
+
 export const siteConfig = {
-    url: siteUrl,
   name: "Cássio Brandão",
   legalName: "Cássio Brandão Advocacia & Consultoria Jurídica",
   shortName: "Cássio Brandão Advocacia",

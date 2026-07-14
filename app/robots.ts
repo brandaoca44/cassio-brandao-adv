@@ -1,5 +1,7 @@
 import type { MetadataRoute } from "next";
 
+import { siteUrl } from "@/lib/site";
+
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
@@ -7,7 +9,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
     },
 
-    sitemap:
-      "https://cassio-brandao-advocacia.vercel.app/sitemap.xml",
+    sitemap: `${siteUrl}/sitemap.xml`,
   };
 }
