@@ -180,28 +180,28 @@ export function HeroSection() {
 
               <div className="pointer-events-none absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-white/10 to-transparent" />
 
-              <div className="absolute inset-x-5 bottom-5 rounded-[1.4rem] border border-[#d1ad6a]/50 bg-[#111111]/78 p-5 shadow-[0_22px_55px_rgba(0,0,0,0.34)] backdrop-blur-xl sm:inset-x-7 sm:bottom-7 sm:p-6">
-                <div className="flex items-center justify-between gap-5">
-                  <div>
+              <div className="absolute inset-x-3 bottom-3 rounded-[1.05rem] border border-[#d1ad6a]/50 bg-[#111111]/82 px-4 py-3.5 shadow-[0_18px_45px_rgba(0,0,0,0.32)] backdrop-blur-xl sm:inset-x-7 sm:bottom-7 sm:rounded-[1.4rem] sm:p-6">
+                <div className="flex items-end justify-between gap-3 sm:items-center sm:gap-5">
+                  <div className="min-w-0 flex-1">
                     <p
-                      className="text-[11px] font-semibold uppercase tracking-[0.20em] text-[#d1ad6a]"
+                      className="truncate text-[8px] font-semibold uppercase tracking-[0.17em] text-[#d1ad6a] sm:text-[11px] sm:tracking-[0.20em]"
                       style={{ fontFamily: "var(--font-manrope)" }}
                     >
                       Cássio Brandão
                     </p>
 
                     <p
-                      className="mt-2 text-[1.15rem] font-medium leading-snug text-white sm:text-[1.45rem]"
+                      className="mt-1 max-w-[15rem] text-[0.92rem] font-medium leading-[1.05] text-white min-[420px]:text-[1.02rem] sm:mt-2 sm:max-w-none sm:text-[1.45rem] sm:leading-snug"
                       style={{ fontFamily: "var(--font-cormorant)" }}
                     >
                       Advocacia & Consultoria Jurídica
                     </p>
 
-                    <div className="mt-4 flex flex-wrap items-center gap-3">
-                      <span className="h-px w-10 bg-[#d1ad6a]" />
+                    <div className="mt-2 hidden items-center gap-3 min-[420px]:flex sm:mt-4">
+                      <span className="h-px w-6 bg-[#d1ad6a] sm:w-10" />
 
                       <span
-                        className="text-[9px] uppercase tracking-[0.15em] text-white/60"
+                        className="text-[7px] uppercase tracking-[0.12em] text-white/60 sm:text-[9px] sm:tracking-[0.15em]"
                         style={{ fontFamily: "var(--font-manrope)" }}
                       >
                         Ética · Estratégia · Confiança
@@ -209,7 +209,7 @@ export function HeroSection() {
                     </div>
                   </div>
 
-                  <div className="hidden shrink-0 border-l border-[#d1ad6a]/35 pl-5 sm:block">
+                  <div className="hidden shrink-0 border-l border-[#d1ad6a]/35 pl-5 min-[420px]:block">
                     <Scale
                       size={28}
                       strokeWidth={1.3}
